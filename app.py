@@ -67,6 +67,6 @@ def complete_journal():
         return jsonify({"message": "Thought successfully released."}), 200
     except Exception as e:
         print(f"Error logging journal: {e}")
-        return jsonify({"error": "Failed to log session"}), 500
+        return jsonify({"error": "Failed to lodg session"}), 500
 if __name__ == "_main_":
     app.run(debug=True)
