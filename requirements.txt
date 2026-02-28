@@ -1,5 +1,5 @@
 flask
 flask-cors
-psycog2
+psycopg2
 google
 dotenv
