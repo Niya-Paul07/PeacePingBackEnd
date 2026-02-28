@@ -1,6 +1,6 @@
 flask
 flask-cors
 psycopg2
-google
+google-genai
 dotenv
 gunicorn
